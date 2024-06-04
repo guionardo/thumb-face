@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "thumb-face"
+version = "0.1.0"
+description = "API for generate a thumbnail with face centering from your photograph"
+authors = ["Guionardo <guionardo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+opencv-python-headless = "^4.10.0.82"
+pillow = "^10.3.0"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
