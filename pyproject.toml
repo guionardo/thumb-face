@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "thumb-face"
-version = "0.1.0"
+version = "0.1.1"
 description = "API for generate a thumbnail with face centering from your photograph"
 authors = ["Guionardo <guionardo@gmail.com>"]
 license = "MIT"
